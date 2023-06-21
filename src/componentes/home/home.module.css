@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
+
+
+.icono3{
+    width: 5rem;
+    height: 5rem;
+    margin-left: .8rem;
+    margin-top: 3rem;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.texto{
+    font-family: 'Tsukimi Rounded', sans-serif;
+    color:black;
+    text-shadow: 3px 3px 3px #ffd2d2c5;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.card {
+    width: 15rem;
+    height: 20rem;
+    background-image: linear-gradient(163deg, #7700ff 0%, #ff00ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .card2 {
+    width: 15rem;
+    height: 20rem;
+    background-color: #1a1a1a;
+    transition: all .2s;
+    border-radius: 20px;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(225, 0, 255, 0.418);
+   }
+
+
+   .icono {
+    width: 5rem;
+    height: 5rem;
+    margin-left: .8rem;
+    margin-top: 3rem;
+   
+    transition: all .3s;
+    align-items: center;
+   }
+   
+   .icono2 {
+    width: 5rem;
+    height: 5rem;    
+
+    transition: all .2s;
+    
+   }
+   
+   .icono:hover {
+    transform: scale(0.98);
+   
+   }
+   
+   .icono2:hover {
+    box-shadow: 0px 0px 0px 0px rgba(225, 0, 255, 0.418);
+    filter: drop-shadow(0 2px 5px  rgba(225, 0, 255, 0.644));
+    
+   }
+
+   .contenedorIcono{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
