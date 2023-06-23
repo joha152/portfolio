@@ -4,7 +4,7 @@
 .nav{
     background-image: url("../../assets/imagenes/degrade.jpg"); 
     background-size: cover;
-    box-shadow: rgba(255, 69, 131, 0.623) 0px 4px 0px 0px;
+    box-shadow: rgb(255, 69, 131) 1px 1px 1px 1px;
     display: inline;
     position: fixed;
     z-index: 1000;

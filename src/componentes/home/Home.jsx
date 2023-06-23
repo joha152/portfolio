@@ -29,6 +29,8 @@ const Home = () => {
             </div>
         </div>
 
+        <hr className={style.hr}/>
+        
             <h2 className={style.texto}>Stack tecnológico</h2>
             <div className={style.contenedorIcono}>
             <div className={style.icono}>

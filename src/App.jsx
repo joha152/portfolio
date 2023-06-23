@@ -6,6 +6,7 @@ import SobreMi from './componentes/sobreMi/SobreMi';
 import { Route , Routes} from 'react-router';
 import Proyectos from './componentes/proyectos/Proyectos';
 import Contacto from './componentes/contacto/Contacto';
+import Footer from './componentes/footer/Footer';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Route path="/proyectos" element={<Proyectos/>}/>
       <Route path="/contacto" element={<Contacto/>}/>
     </Routes>
+    <Footer/>
     </>
   )
 }
