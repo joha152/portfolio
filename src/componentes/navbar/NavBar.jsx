@@ -9,6 +9,7 @@ const NavBar = () => {
         <>
         <nav>
             <div className={style.nav}>
+                
                 <button className={style.button}>PROYECTOS</button>
                 <button className={style.button}>CONTACTO</button>
                 <NavLink to="/sobremi">

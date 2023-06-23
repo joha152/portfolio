@@ -1,0 +1,25 @@
+.icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.btn {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .2rem;
+    width: 100%;
+
+
+
+
+}
