@@ -9,9 +9,13 @@ const NavBar = () => {
         <>
         <nav>
             <div className={style.nav}>
-                
+
+                <NavLink to="/proyectos">
                 <button className={style.button}>PROYECTOS</button>
+                </NavLink>
+                <NavLink to="/contacto">
                 <button className={style.button}>CONTACTO</button>
+                </NavLink>
                 <NavLink to="/sobremi">
                 <button className={style.button}>SOBRE MI</button>
                 </NavLink>

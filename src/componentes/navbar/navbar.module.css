@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
 
 .nav{
-    background-image: url("./assets/imagenes/degrade.jpg"); 
-    box-shadow: rgba(255, 249, 251, 0.623) 0px 4px 0px 0px;
+    background-image: url("../../assets/imagenes/degrade.jpg"); 
+    background-size: cover;
+    box-shadow: rgba(255, 69, 131, 0.623) 0px 4px 0px 0px;
     display: inline;
     position: fixed;
     z-index: 1000;
@@ -52,7 +53,7 @@
    
    button:hover {
     color: #000000;
-    background-color: transparent;
+    background-image: url("../../assets/imagenes/fondo2.jpg");
     box-shadow: 0px 0px 30px 1px rgba(225, 0, 255, 0.418);
     transform: translateY(-2px);
    }

@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .texto{
@@ -28,7 +28,7 @@
 .card {
     width: 15rem;
     height: 20rem;
-    background-image: linear-gradient(163deg, #7700ff 0%, #ff00ff 100%);
+    background-image: url("../../assets/imagenes/fondo3.jpg");
     border-radius: 20px;
     transition: all .3s;
    }

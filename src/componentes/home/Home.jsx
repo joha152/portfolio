@@ -24,13 +24,13 @@ const Home = () => {
         </div>
             <div>
                 <h1 className={style.texto}>¡BIENVENIDOS!</h1>
-                <h2 className={style.texto}>SOY JOHANNA</h2>
-                <h2 className={style.texto}>Y ESTE ES MI PORTFOLIO</h2>
+                <h2 className={style.texto}>Soy Johanna</h2>
+                <h2 className={style.texto}>Y este es mi portfolio</h2>
             </div>
         </div>
 
+            <h2 className={style.texto}>Stack tecnológico</h2>
             <div className={style.contenedorIcono}>
-
             <div className={style.icono}>
             <img src={html} alt="html" className={style.icono2}/>
             </div>
