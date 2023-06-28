@@ -3,12 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
 
 
-.icono3 {
-    width: 5rem;
-    height: 5rem;
-    margin-left: .8rem;
-    margin-top: 3rem;
-}
+
 
 .home {
     display: flex;
@@ -59,7 +54,7 @@
     height: 5rem;
     margin-left: .8rem;
     margin-top: 3rem;
-
+    cursor: pointer;
     transition: all .3s;
     align-items: center;
 }
