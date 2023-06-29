@@ -22,6 +22,8 @@ const Contacto = () => {
                 <h1 className={style.texto}>Podes contactarme por</h1>
                 </div>
             </div>
+
+            <div className={style.contentIconos}>
             <a href="https://www.linkedin.com/in/johanna-servodio/">
                 <img src={linkedin} alt="linkedin" className={style.iconos} />
             </a>
@@ -31,6 +33,7 @@ const Contacto = () => {
             <a id="emailIcon" href="mailto:johanna.servodio@gmail.com?subject=Asunto del correo&body=Cuerpo del correo">
                 <img src={mensaje} alt="mensaje" className={style.iconos} />
             </a>
+            </div>
 
         </>
     )
