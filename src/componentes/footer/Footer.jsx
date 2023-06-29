@@ -6,7 +6,7 @@ const Footer = ()=>{
     return(
         <>
         <div className={style.footer}>
-            <h1 className={style.texto}>Johanna Servodio <img src={heart} alt="corazon" className={style.henry} /></h1>
+            <h1 className={style.texto}>Johanna Servodio <img src={heart} alt="corazon" className={style.icono} /></h1>
         </div>
         </>
     )
