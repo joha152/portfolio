@@ -85,8 +85,41 @@
     margin-bottom: 3rem;
 }
 
-.hr{
+.hr {
     background-image: url("../../assets/imagenes/fondo3.jpg");
     width: 80rem;
     height: .3rem;
+}
+
+.contentText {
+    background-color: aquamarine;
+    max-width: 600px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        justify-content: center;
+    }
+
+    .hr {
+        max-width: 600px;
+    }
+    .stack {
+        background-color: aquamarine;
+        max-width: max-content;
+        padding: .5rem;
+        margin-left: 30px;
+    }
+    .contenedorIcono {
+        display: grid;
+        grid-template-columns: repeat(3, .4fr); /* 3 columnas de igual tamaño */
+        
+        margin-bottom: 3rem;
+    }
+
 }

@@ -86,13 +86,13 @@
     .parrafo {
         font-family: 'Jost', sans-serif;
         color: black;
-        font-size: .6rem;
+        font-size: .9rem;
         align-items: center;
     }
 
     .card {
         width: 28rem;
-        height: 17rem;
+        height: 24rem;
     }
 
     .texto {

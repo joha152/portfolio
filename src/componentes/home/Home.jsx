@@ -18,51 +18,52 @@ const Home = () => {
 
     return (
         <>
-        <div className={style.home}>
-        <div className={style.card}>
-            <img src={johanna} alt="yo" className={style.card2} />
-        </div>
-            <div>
-                <h1 className={style.texto}>¡BIENVENIDOS!</h1>
-                <h2 className={style.texto}>Soy Johanna</h2>
-                <h2 className={style.texto}>Y este es mi portfolio</h2>
+            <div className={style.home}>
+                <div className={style.card}>
+                    <img src={johanna} alt="yo" className={style.card2} />
+                </div>
+                <div className={style.contentText}>
+                    <h1 className={style.texto}>¡BIENVENIDOS!</h1>
+                    <h2 className={style.texto}>Soy Johanna</h2>
+                    <h2 className={style.texto}>Y este es mi portfolio</h2>
+                </div>
             </div>
-        </div>
 
-        <hr className={style.hr}/>
-        
-            <h2 className={style.texto}>Stack tecnológico</h2>
+            <hr className={style.hr} />
+            <div className={style.stack}>
+                <h2 className={style.texto}>Stack tecnológico</h2>
+            </div>
             <div className={style.contenedorIcono}>
-            <div className={style.icono}>
-            <img src={html} alt="html" className={style.icono2}/>
-            </div>
-            <div className={style.icono}>
-            <img src={css} alt="css" className={style.icono2} />
-            </div>
-            <div className={style.icono}>
-            <img src={javascript} alt="js" className={style.icono2}/>
-            </div>
-            <div className={style.icono}>
-            <img src={react} alt="react" className={style.icono2}/>
-            </div>
-            <div className={style.icono}>
-            <img src={node} alt="node" className={style.icono2}/>
-            </div>
-            <div className={style.icono}>
-            <img src={postgresql} alt="postgres" className={style.icono2}/>
-            </div>
-            <div className={style.icono}>
-            <img src={sequelize} alt="sequelize" className={style.icono2}/>
-            </div>
-            <div className={style.icono}>
-            <img src={git} alt="git" className={style.icono2}/>
-            </div>
-            <div className={style.icono}>
-            <img src={github} alt="github" className={style.icono2}/>
-            </div>
+                <div className={style.icono}>
+                    <img src={html} alt="html" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={css} alt="css" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={javascript} alt="js" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={react} alt="react" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={node} alt="node" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={postgresql} alt="postgres" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={sequelize} alt="sequelize" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={git} alt="git" className={style.icono2} />
+                </div>
+                <div className={style.icono}>
+                    <img src={github} alt="github" className={style.icono2} />
+                </div>
             </div>
 
-            
+
         </>
     )
 
