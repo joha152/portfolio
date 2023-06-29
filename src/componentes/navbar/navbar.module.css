@@ -65,7 +65,7 @@
 
    @media screen and (max-width: 600px){
     .nav{
-        max-width: 600px;
+        max-width: auto;
         padding-left: 0;
     }
 

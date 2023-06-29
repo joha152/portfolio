@@ -1,7 +1,7 @@
 .footer {
     background-image: url("../../assets/imagenes/fondo3.jpg");
     background-size: auto;
-    box-shadow: rgba(255, 69, 131, 0.623) 4px 4px 4px 4px;
+    box-shadow: rgba(255, 69, 131, 0.623) 4px 4px ;
     display: inline;
     position: fixed;
     z-index: 1000;
@@ -30,8 +30,7 @@
 
 @media screen and (max-width: 600px){
     .footer{
-        max-width: 600px;
-        padding-left: 0;
+        max-width: auto;
     }
 
    }
