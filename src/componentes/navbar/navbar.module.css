@@ -63,10 +63,15 @@
     transform: translateY(0);
    }
 
-   @media screen and (max-width: 600px){
-    .nav{
-        max-width: auto;
-        padding-left: 0;
+   @media screen and (max-width: 600px) {
+    .nav {
+        flex-direction: row;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    .button {
+        margin-bottom: 1rem;
     }
 
    }
