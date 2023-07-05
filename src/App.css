@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 600px) {
 #root {
-  max-width: auto;
+  max-width: 600px;
 }
 }
 .card {

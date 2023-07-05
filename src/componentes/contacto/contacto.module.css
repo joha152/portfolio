@@ -42,8 +42,9 @@
     .conteiner{
         display: flex;
         flex-direction: column;
-      
-        width: 600px;       
+      justify-content: center;
+      height: 400px;   
+      width: 600px;  
     }
 
     .contentIconos{
