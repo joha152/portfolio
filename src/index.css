@@ -65,6 +65,7 @@ button:focus-visible {
   :root {
     color: #213547;
     background-image: url("./assets/imagenes/degrade.jpg"); 
+    background-size: cover;
     width: 600px;
 
   }
